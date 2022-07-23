@@ -1,7 +1,11 @@
 import React from 'react'
 
 function greet() {
-    return <h1>Function Component..!</h1>
+    return (
+    <div className="greet">
+        <h1>Function Component..!</h1>
+        </div>
+    );
 }
 
 export default greet;

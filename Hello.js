@@ -1,7 +1,7 @@
 import React from 'react';
  const Hello = () => {
     return (
-        <div>
+        <div className="hello">
             <h1>JSX Version component..!</h1>
         </div>
     )
