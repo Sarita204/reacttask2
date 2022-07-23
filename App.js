@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import greet from './components/greet'
-
+import Greet from './components/greet'
+import Welcome from './components/New folder/Welcome'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <greet />
+        <Greet />
+        <Welcome />
       </div>
     );
   }
 }
-export default greet;
+export default App;
